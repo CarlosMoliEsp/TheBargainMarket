@@ -9,7 +9,8 @@ a{
 }
 .anuncio{
   display: flex;
-  justify-content: center;
+  align-items: center;
+  width: 65%;
 }
 
 /*Menu*/
@@ -29,6 +30,7 @@ nav{
   padding-top: 10px;
   padding-bottom: 20px;
   height: 60px;
+  width: 100%;
 }
 .menu_item:hover {
   color: #7a7a7a;
@@ -135,7 +137,7 @@ nav{
 }
 
 .categoria {
-  height: 280px;
+  max-height: 280px;
   border: 2px solid;
   border-radius: 15px;
   background-color: #b3b3b3;
@@ -148,7 +150,7 @@ nav{
 }
 
 .imgcategorias {
-  height: 210px;
+  max-height: 210px;
   width: 220px;
   position: static;
 }
@@ -167,7 +169,7 @@ nav{
 }
 
 .contpersonalizado {
-  height: 330px;
+  max-height: 330px;
   border: 2px solid black;
   border-radius: 15px;
   background-color:#b3b3b3;
@@ -238,4 +240,20 @@ nav{
 .año{
   text-align: right;
   font-size:20px;
+}
+  /* Cambiar el formato segun la pantalla */
+/* 2 columnas en pantallas mayores de 500px */
+@media (max-width: 500px) {
+  .Categorias { grid-template-columns: repeat(2, 1fr); }
+  .cajabuscar{
+    display: none;
+  }
+}
+
+/* 3 columnas en pantallas mayores de 1000px */
+@media (max-width: 1000px) {
+  .Categorias { grid-template-columns: repeat(3, 1fr); }
+  .cajabuscar{
+    display: none;
+  }
 }
