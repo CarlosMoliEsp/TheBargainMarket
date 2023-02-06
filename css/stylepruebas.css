@@ -1,85 +1,98 @@
 /*Toda la pagina*/
 body {
-    background-color: #e1c49e;
-    text-align: left;
-    margin: 0;
-  }
-  a{
-    text-decoration: none;
-  }
-  .anuncio{
-    display: flex;
-    justify-content: center;
-  }
-  
-  /*Menu*/
+  background-color: #e1c49e;
+  text-align: left;
+  margin: 0;
+}
 
-  
+a {
+  text-decoration: none;
+}
 
-  
-  /*Section 1(Categorias)*/
-  .Categorias{
-    margin: 40px;
-    font-family:Secular One;
-  }
-   .grid-categorias {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    justify-content: center;
-    /*
+.anuncio {
+  display: flex;
+  justify-content: center;
+}
+
+/*Menu*/
+
+
+
+
+/*Section 1(Categorias)*/
+.Categorias {
+  margin: 40px;
+  font-family: Secular One;
+}
+
+.grid-categorias {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  /*
       space around->espacio entre cada
       space-between->espacio entre cada pero 
       una pegada al final y otra al principio
     */
-    width: 90%;
-    height: 650px;
-    margin: 50px;
-  }
+  width: 90%;
+  height: 650px;
+  margin: 50px;
+}
+
+.grid-categorias {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.categoria {
+  max-height: 280px;
+  border: 2px solid;
+  border-radius: 15px;
+  background-color: #b3b3b3;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.imgcategorias {
+  max-height: 210px;
+  width: 220px;
+  position: static;
+}
+
+/*Section 2(Recomendacion de la pagina)*/
+
+/*Ventas*/
+
+
+/*Texto*/
+.texto {
+  margin: 65px;
+  font-size: 20px;
+  font-family: Cabin;
+}
+
+/*Footer(Pie de pagina)*/
+
+/* Cambiar el formato segun la pantalla */
+@media (max-width: 500px) {
   .grid-categorias {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 1rem;
+    grid-template-columns: 1fr;
   }
-  .categoria {
-    max-height: 280px;
-    border: 2px solid;
-    border-radius: 15px;
-    background-color: #b3b3b3;
-    color: black;
-    text-align: center;
-    line-height: 40px;
-    margin: 20px;
-    padding: 10px;
-    font-size: 25px;
-  }
-  
-  .imgcategorias {
-    max-height: 210px;
-    width: 220px;
-    position: static;
-  }
-  
-  /*Section 2(Recomendacion de la pagina)*/
 
-  /*Ventas*/
+  .texto {
+    color: red;
+    font-size: 40p;
+  }
+}
 
-  
-  /*Texto*/
-  .texto{
-    margin: 65px;
-    font-size: 20px;
-    font-family:Cabin;
+@media (max-width: 1000px) {
+  .grid-categorias {
+    grid-template-columns: repeat(2, 1fr)
   }
-  /*Footer(Pie de pagina)*/
-
-    /* Cambiar el formato segun la pantalla */
-  /* 2 columnas en pantallas mayores de 500px */
-  @media (min-width: 500px) {
-    .Categorias { grid-template-columns: repeat(2, 1fr); }
-  }
-  
-  /* 3 columnas en pantallas mayores de 1000px */
-  @media (min-width: 1000px) {
-    .Categorias { grid-template-columns: repeat(3, 1fr); }
-  }
+}
