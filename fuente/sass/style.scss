@@ -1,0 +1,122 @@
+// VARIABLES
+$primary-color: white;
+$display-flex: flex;
+$display-none: none;
+$display-grid: grid;
+$fuenteNormal: 'Sniglet', cursive;
+$align-center: center;
+$border: 2px solid black;
+$border-radius: 15px;
+$backgroundcolor-categoria: #b3b3b3;
+
+body {
+    background-color: #e1c49e;
+    text-align: left;
+    margin: 0;
+    font-family: $fuenteNormal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.anuncio1 {
+    img{
+        display:block;
+        margin:auto;
+        }
+}
+
+
+// Menu (Nav)
+@import "./nav";
+
+// Section 1
+.Categorias {
+    margin: 30px;
+
+    .grid-categorias {
+        display: $display-grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: $align-center;
+        width: 90%;
+        height: 650px;
+        margin: 50px;
+    }
+
+    .categoria {
+        max-height: 280px;
+        border: $border;
+        border-radius: $border-radius;
+        background-color: $backgroundcolor-categoria;
+        color: black;
+        text-align: $align-center;
+        margin: 18px;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .imgcategorias {
+        max-height: 210px;
+        width: 220px;
+        position: static;
+    }
+}
+
+// Section 2
+.ContenidoPersonalizado {
+    margin: 10px;
+
+    .grid-contpersonalizado {
+        display: $display-grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .contpersonalizado {
+        max-height: 330px;
+        border: $border;
+        border-radius: $border-radius;
+        background-color: $backgroundcolor-categoria;
+        color: black;
+        text-align: $align-center;
+        line-height: 40px;
+        margin: 10px;
+        padding: 20px;
+    }
+    .imgproductos{
+        width: 175px;
+        height: 150px;
+    }
+    // Ventas 
+    h3 ,p ,h4{
+        margin: 0;
+        text-align: left;
+        color: black;
+        font-size: 20px;
+    }
+    h3{
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .precio{
+        color: red;
+        text-align: right;
+        font-size: 23px;
+    }
+}
+
+// Section 3
+.texto {
+    font-family: $fuenteNormal;
+    font-size: 20px;
+    margin: 65px;
+}
+
+// Footer
+@import "./footer";
+
+// CAMBIO FORMATO
+@import "./import";
