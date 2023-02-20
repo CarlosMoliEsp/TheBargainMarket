@@ -8,10 +8,10 @@ body {
 a{
   text-decoration: none;
 }
-.anuncio{
+.anuncio1{
   display: flex;
   align-items: center;
-  width: 65%;
+  width: 100%;
 }
 
 /*Menu*/
@@ -20,6 +20,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content:space-around;
+  background-color: black;
 }
 .menu_item {
   color: white;
@@ -27,8 +28,7 @@ nav{
 }
 #menu {
   width:110%;
-  border: 1px solid;
-  background-color: black;
+
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -51,8 +51,6 @@ nav{
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
  }
  .cajabuscar {
     float: none;
@@ -117,10 +115,15 @@ nav{
     vertical-align: top;
  }
 
+/* Anuncio */
+.anuncio1 img {
+      display:block;
+      margin:auto;
+}
+
 /*Section 1(Categorias)*/
 .Categorias{
   margin: 40px;
-  font-family:Secular One;
 }
 .grid-categorias {
   display: grid;
@@ -203,7 +206,7 @@ nav{
   font-size: 23px;
 }
 
-/*Texto*/
+/*Section 3-> Texto*/
 .texto{
   margin: 65px;
   font-size: 20px;
@@ -253,6 +256,9 @@ nav{
   .menu_item{
     display: none;
   }
+  .anuncio1{
+    display: none;
+  }
 }
   /* 2 columnas en pantallas mayores de 500px */
 @media (min-width: 500px) {
@@ -262,6 +268,9 @@ nav{
     display: none;
   }
   .menu_item{
+    display: none;
+  }
+  .anuncio1{
     display: none;
   }
 }

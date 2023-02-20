@@ -1,0 +1,278 @@
+@charset "UTF-8";
+body {
+  background-color: #e1c49e;
+  text-align: left;
+  margin: 0;
+  font-family: "Sniglet", cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.anuncio1 img {
+  display: block;
+  margin: auto;
+}
+
+nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #050505;
+  width: 105%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+nav .menu_item {
+  text-align: center;
+  color: white;
+}
+nav .menu_item:hover {
+  color: #7a7a7a;
+  cursor: pointer;
+}
+nav .fotologo {
+  width: 200px;
+  height: 100px;
+}
+nav img {
+  height: 40px;
+  width: 40px;
+}
+nav img .fotosmenu {
+  width: 40px;
+}
+nav img .fotosmenu1 {
+  width: 70px;
+}
+
+body, div, fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.cajabuscar {
+  float: none;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 25px;
+  margin-top: 29px;
+  margin-left: 30px;
+  display: inline-block;
+  text-align: left;
+}
+
+#buscarform {
+  float: left;
+  clear: both;
+  width: 100%;
+  position: relative;
+}
+
+#buscarform fieldset {
+  float: left;
+}
+
+#buscarform .search {
+  font-size: 20px;
+  top: 0px;
+  color: #FFF;
+  background: #FFF;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+}
+
+#buscarform fieldset {
+  width: 100%;
+}
+
+#s {
+  width: 100%;
+  background-color: #fff;
+  float: left;
+  text-indent: 10px;
+  color: #555555;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  height: 42px;
+}
+
+.button {
+  right: 0;
+  top: 0;
+  float: right;
+  border: 0;
+  width: 40px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+  color: #a4a4a4;
+  transition: all 0.25s linear;
+  background: transparent;
+  z-index: 10;
+  position: absolute;
+  vertical-align: top;
+}
+
+.Categorias {
+  margin: 30px;
+}
+.Categorias .grid-categorias {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  width: 90%;
+  height: 650px;
+  margin: 50px;
+}
+.Categorias .categoria {
+  max-height: 280px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #b3b3b3;
+  color: black;
+  text-align: center;
+  margin: 18px;
+  padding: 10px;
+  font-size: 30px;
+}
+.Categorias .imgcategorias {
+  max-height: 210px;
+  width: 220px;
+  position: static;
+}
+
+.ContenidoPersonalizado {
+  margin: 10px;
+}
+.ContenidoPersonalizado .grid-contpersonalizado {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+}
+.ContenidoPersonalizado .contpersonalizado {
+  max-height: 330px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #b3b3b3;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px;
+  padding: 20px;
+}
+.ContenidoPersonalizado .imgproductos {
+  width: 175px;
+  height: 150px;
+}
+.ContenidoPersonalizado h3, .ContenidoPersonalizado p, .ContenidoPersonalizado h4 {
+  margin: 0;
+  text-align: left;
+  color: black;
+  font-size: 20px;
+}
+.ContenidoPersonalizado h3 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.ContenidoPersonalizado .precio {
+  color: red;
+  text-align: right;
+  font-size: 23px;
+}
+
+.texto {
+  font-family: "Sniglet", cursive;
+  font-size: 20px;
+  margin: 65px;
+}
+
+footer {
+  color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #050505;
+  height: 350px;
+  width: 100%;
+  padding: 15px;
+  font-size: 25px;
+}
+footer .piepagina {
+  display: flex;
+  justify-content: space-between;
+}
+footer .redes {
+  display: flex;
+  justify-content: right;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+}
+footer .info {
+  color: #7a7a7a;
+  font-size: 20px;
+}
+footer .año {
+  text-align: right;
+  font-size: 20px;
+}
+
+/* Cambiar el formato segun la pantalla */
+/* 1 columna en pantallas menores de 500px */
+@media (max-width: 500px) {
+  .grid-categorias {
+    grid-template-columns: repeat(1, 1fr);
+    height: 2000px;
+  }
+  .grid-contpersonalizado {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cajabuscar {
+    display: none;
+  }
+  .menu_item {
+    display: none;
+  }
+}
+/* 2 columnas en pantallas mayores de 500px */
+@media (min-width: 500px) {
+  .grid-categorias {
+    grid-template-columns: repeat(2, 1fr);
+    height: 1000px;
+  }
+  .grid-contpersonalizado {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cajabuscar {
+    display: none;
+  }
+  .menu_item {
+    display: none;
+  }
+}
+/* 3 columnas en pantallas mayores de 1000px */
+@media (min-width: 1100px) {
+  .grid-categorias {
+    grid-template-columns: repeat(3, 1fr);
+    height: 650px;
+  }
+  .grid-contpersonalizado {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cajabuscar {
+    display: flex;
+  }
+  .menu_item {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
