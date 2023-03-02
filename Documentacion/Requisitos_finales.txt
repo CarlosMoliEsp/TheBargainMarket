@@ -1,0 +1,85 @@
+*1)Project description
+-descripcion del proyecto
+*2)Project requirements
+-Requisitos
+*3)Timeline
+-cronologia
+*4)Budged
+-Presupuesto
+*5)Competitors visited, specifying ideas taken or dropped for your website
+-Competidores visitados, especificando ideas tomadas o descartadas para su sitio web
+*6)Design principles applied
+-Principios de diseño aplicados(lo que leimis de 1 en ingles)
+*7)Navigation map, explaining why
+-mapa de navegacion
+*8)Prototypes, where, for each one, you are requested to show images and the result 
+of a simulated meeting with a client where he could have ordered some changes
+-lo del papel dibujo
+*9)Colour palette, showing candidates not eventually chosen
+-paleta de colores
+*10)Typography, showing candidates not eventually chosen
+-Tipo de letra,no la que has usado
+*11)Icons, if any
+-Iconos si hay
+*12)Layout, explaining with images the layouts used at your site
+-posicionamiento de la pagima
+*13)Images used, specifying license, resolution and format
+-Imágenes utilizadas, especificando licencia, resolución y formato
+*14)Project organization, explaining the directory tree, and structure followed at 
+every code file
+-Organizar carpeta css y html  echar captura y explica
+15.nodejs and npm environment installation, configuration and use
+(Instalación, configuración y uso del entorno nodejs y npm)
+?16.Accesibility tests performed and their results
+(Pruebas de accesibilidad realizadas y sus resultados)
+?17.Usability tests performed and their results
+(Pruebas de usabilidad realizadas y sus resultados)
+18.Link to a github repository containing the full web site, this document 
+and the style guide
+(Enlace a un repositorio de github que contiene el sitio web completo, 
+este documento y la guía de estilo)
+
+----------------------------------------------------------------------------
+Document requirements:
+1.Proper writing style, clarity of ideas and good-looking presentation
+(Estilo de escritura adecuado, claridad de ideas y presentación atractiva.)
+2.Explainings at every section about why this decisions where taken
+(Explicaciones en cada sección sobre por qué se tomaron estas decisiones)
+3.Usage of images, with marks (when needed) and image foot notes
+(Usage of images, with marks (when needed) and image foot notes)
+4.Every above section must be present, in the same order
+(Todas las secciones anteriores deben estar presentes, en el mismo orden)
+5.No grammar or spelling mistakes
+(Sin errores gramaticales ni ortográficos)
+----------------------------------------------------------------------------
+Minimum project requirements. No web project can get a positive asessment without accomplishing them:
+1.Workflow:
+	1.Use of git version control system
+()
+	2.Use of node and npm workflow to translate, prefix, minify and combine
+()
+2.Coding:
+	1.Explained code purpose
+()
+	2.Usage of SASS structures wherever I could possibly use them
+()
+3.Website aspect
+	1.Proper use of design language to deliver the appropiate message
+()
+	2.Fully responsive, with no big errors, at any resolution
+()
+	3.Good-looking and eye-catching site: appropiate images, typhography, margins, etc.
+4.Website navigation: easy and intuitive
+()
+5.Website content: usage of some bootstrap resources
+()
+6.Website optimization
+	1.Provide alternative image formats and sizes to reduce bandwidth usage
+()
+
+
+Fallos anteriormente
+-Que sea un enlace a github
+-iconos desformar en algunas resoluciones
+-Nombre de la tienda que sea un enlace
+menu alineado con los iconos

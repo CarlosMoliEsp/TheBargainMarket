@@ -1,0 +1,18 @@
+Es mejor usar npm debido a q tiene una cantidad muy grande de paquetes.
+Se puede iniciar con extensiones pero seria inicar una a uno.
+Con comandos en cambios es simplemente utilizar el comando "npm init".
+1ª.npm init 
+2ª.npm install nombre_paquete --save -dev
+3ª. Hacemos los scripts
+4ª.Limpieza para q no se oprima una version con otra eso es rimraf. limpoa llama
+al desarollo y desde ahi lo carga.
+Desde produccion se encarga de compilar todo el programa y potimiza todo lo que puede.
+5ª npm run prod -> Pa ra minimizar todos
+*Si lo vas a enalzar con comandos llamas al link del index de sass / si es con extension 
+pues link al css*
+
+SUBIR A GITHUB:
+-carpeta fuente
+-gitignore
+-packaje.json y package-lock.json
+
