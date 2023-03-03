@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moviles</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moviles</title> 
+  <!-- Link a Sass -->
+  <link rel="StyleSheet" href="../../sass/style.css" type="text/css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular One">
 </head>
+
 <body>
-    
+   <!--Menu de la Pagina-->
+   <nav id="menu">
+    <a href="../../index.html" class="logo"><img src="../../fotos/LogoBargainMarket.png" class="fotologo" width="200px"
+        height="100px"></a>
+    <a href="./ofertas.html" class="menu_item">Ofertas</a>
+    <a href="./moviles.html" class="menu_item">Móviles</a>
+    <a href="./accesorios.html" class="menu_item">Accesorios</a>
+    <a href="./televisores.html" class="menu_item">Televisores</a>
+    <a href="./consolas.html" class="menu_item">Consolas</a>
+    <a href="./ordenadores.html" class="menu_item">Potátiles</a>
+    <!--Buscador de la Pagina-->
+    <div class="cajabuscar">
+      <form method="get" id="buscarform">
+        <fieldset>
+          <input type="text" id="s" value="" placeholder="Buscar" />
+          <a href="#" class="button"><img src="../../fotos/buscador.png" width="20px" height="20px"></a>
+          <input class="button" type="submit" value="" />
+          <i class="search"></i>
+        </fieldset>
+      </form>
+    </div>
+    <!--Fotos de usuario y cesta-->
+    <div>
+      <a href="#"><img src="../../fotos/usuario.png" class="fotosmenu"></a>
+      <a href="#"><img src="../../fotos/carro.png" class="fotosmenu1"></a>
+    </div>
+  </nav>
+
+  <!--Contenedor con Vnetas Recomendadas-->
+  <section class="ContenidoPersonalizado">
+    <h1>Compra de Móviles</h1>
+    <article class="grid-contpersonalizado">
+      <a href="#">
+        <article class="contpersonalizado 1">
+          <img src="../../fotos/venta5.png" class="imgproductos">
+          <h3 class="tituloProducto">Samsung Galxy M23 5G</h3>
+          <p class="Desde">Desde</p>
+          <h4 class="precio">185'90€</h4>
+        </article>
+      </a>
+      <a href="#">
+        <article class="contpersonalizado 2">
+          <img src="../../fotos/venta2.png" class="imgproductos">
+          <h3 class="tituloProducto">iPhone 11 Pro - 64 GB - Verde</h3>
+          <p class="Desde">Desde</p>
+          <h4 class="precio">471'33€</h4>
+        </article>
+      </a>
+      <a href="#">
+        <article class="contpersonalizado 3">
+          <img src="../../fotos/venta6.png" class="imgproductos">
+          <h3 class="tituloProducto">Huawai P Smart 64Gb</h3>
+          <p class="Desde">Desde</p>
+          <h4 class="precio">179'99€</h4>
+        </article>
+      </a>
+      <a href="#">
+        <article class="contpersonalizado 1">
+          <img src="../../fotos/venta7.png" class="imgproductos">
+          <h3 class="tituloProducto">iPhone XR</h3>
+          <p class="Desde">Desde</p>
+          <h4 class="precio">259'99€</h4>
+        </article>
+      </a>
+      <a href="#">
+        <article class="contpersonalizado 1">
+          <img src="../../fotos/venta8.png" class="imgproductos">
+          <h3 class="tituloProducto">Galaxy S10 Dual Sim</h3>
+          <p class="Desde">Desde</p>
+          <h4 class="precio">199'99€</h4>
+        </article>
+      </a>
+      <a href="#">
+        <article class="contpersonalizado 1">
+          <img src="../../fotos/venta9.png" class="imgproductos">
+          <h3 class="tituloProducto">Galaxy A40 Dual Sim</h3>
+          <p class="Desde">Desde</p>
+          <h4 class="precio">185'80€</h4>
+        </article>
+      </a>
+    </article>
+  </section>
+
+  <!--Pie de pagina-->
+  <footer id="footer">
+    <div class="piepagina">
+      <section>
+        <h3 class="infotitulo"> Información </h3>
+        <p class="info">
+          -¿Quienes somos?<br>
+          -Número contacto; 618652432<br>
+          -Encuentra tu tienda<br>
+          -Nuestras redes sociales<br>
+        </p>
+      </section>
+
+      <section class="redes">
+        <article class="red 1">
+          <img src="../../fotos/red1.png" class="imgred">
+        </article>
+
+        <article class="red 2">
+          <img src="../../fotos/red2.png" class="imgred">
+        </article>
+
+        <article class="red 3">
+          <img src="../../fotos/red3.png" class="imgred">
+        </article>
+      </section>
+    </div>
+    <h4 class="año">@ 2022 TheBargainMarket</h4>
+  </footer>
+
 </body>
 </html>
