@@ -5,8 +5,8 @@
   "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parcel:desarrollo": "parcel fuente/index.html --no-cache",
-    "parcel:produccion": "parcel build fuente/index.html --no-cache",
+    "parcel:desarrollo": "parcel fuente/index.html  ",
+    "parcel:produccion": "parcel build fuente/index.html ",
     "limpiar": "rimraf dist .cache .parcel-cache .cache-loader",
     "des": "npm-run-all limpiar parcel:desarrollo",
     "produccion": "npm-run-all limpiar parcel:produccion"

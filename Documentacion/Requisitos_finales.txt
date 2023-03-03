@@ -79,8 +79,5 @@ Minimum project requirements. No web project can get a positive asessment withou
 
 
 Fallos anteriormente
--Hacer indice correcto en el word
--Que sea un enlace a github el punto 17
--Arreglar puntos 8,14(explicar)
--Hacer puntos 11,15
--Crear nuevo sass para las categorias
+-Arreglar puntos 14(explicar)
+-Cambiar fotos
