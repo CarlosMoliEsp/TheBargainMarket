@@ -184,7 +184,7 @@ body, div, fieldset {
   font-weight: bold;
 }
 .ContenidoPersonalizado .precio {
-  color: red;
+  color: #c30000;
   text-align: right;
   font-size: 23px;
 }
