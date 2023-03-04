@@ -79,5 +79,4 @@ Minimum project requirements. No web project can get a positive asessment withou
 
 
 Fallos anteriormente
--Arreglar puntos 14(explicar)
 -Cambiar fotos
