@@ -7,10 +7,12 @@ $fuenteNormal: 'Sniglet', cursive;
 $align-center: center;
 $border: 2px solid black;
 $border-radius: 15px;
-$backgroundcolor-categoria: #b3b3b3;
+// $backgroundcolor-categoria: #b3b3b3;
+$backgroundcolor-categoria: #e1c49e;
 
 body {
-    background-color: #e1c49e;
+    // background-color: #e1c49e;
+    background-color: #dbb88a;
     text-align: left;
     margin: 0;
     font-family: $fuenteNormal;

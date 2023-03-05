@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: #e1c49e;
+  background-color: #dbb88a;
   text-align: left;
   margin: 0;
   font-family: "Sniglet", cursive;
@@ -135,7 +135,7 @@ body, div, fieldset {
   max-height: 280px;
   border: 2px solid black;
   border-radius: 15px;
-  background-color: #b3b3b3;
+  background-color: #e1c49e;
   color: black;
   text-align: center;
   margin: 18px;
@@ -162,7 +162,7 @@ body, div, fieldset {
   max-height: 330px;
   border: 2px solid black;
   border-radius: 15px;
-  background-color: #b3b3b3;
+  background-color: #e1c49e;
   color: black;
   text-align: center;
   line-height: 40px;
@@ -269,6 +269,27 @@ footer .año {
   }
   .ContenidoPersonalizado .grid-contpersonalizado {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .cajabuscar {
+    display: flex;
+  }
+  nav .menu_item {
+    display: flex;
+  }
+}
+/* 3 columnas en pantallas mayores de 1000px */
+@media (min-width: 2000px) {
+  .Categorias .grid-categorias {
+    grid-template-columns: repeat(3, 1fr);
+    height: 650px;
+    width: 90%;
+  }
+  .ContenidoPersonalizado .grid-contpersonalizado {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+  .ContenidoPersonalizado .grid-contpersonalizado .contpersonalizado {
+    width: 550px;
   }
   .cajabuscar {
     display: flex;

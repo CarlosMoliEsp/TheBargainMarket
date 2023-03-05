@@ -37,3 +37,19 @@
     }
 
   }
+  /* 3 columnas en pantallas mayores de 1000px */
+  @media (min-width: 2000px) {
+    .Categorias .grid-categorias { grid-template-columns: repeat(3, 1fr); height: 650px; width: 90%;}
+    .ContenidoPersonalizado .grid-contpersonalizado { 
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+    }
+    @import "./ventas.scss";
+    .cajabuscar{
+      display: $display-flex;
+    }
+    nav .menu_item{
+      display: $display-flex;
+    }
+
+  }
