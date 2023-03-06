@@ -6,12 +6,16 @@
     .cajabuscar{
       display: $display-none;
     }
-    nav .menu_item_grandes{
-      display: $display-none;
+    nav {
+      .menu_item_grandes{
+        display: $display-none;
+      }
+      .logo{
+        width: 150px;
+        height: 100px;
+      }
     }
-    footer .redes{
-      display: $display-none;
-    }
+    
   }
     /* 2 columnas en pantallas mayores de 500px */
   @media (min-width: 550px) {

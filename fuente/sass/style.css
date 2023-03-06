@@ -248,9 +248,8 @@ footer .redes {
   display: flex;
   justify-content: right;
 }
-footer img {
-  width: 50px;
-  height: 50px;
+footer .redes .red {
+  margin: 5px;
 }
 footer .info {
   color: #7a7a7a;
@@ -277,8 +276,9 @@ footer .año {
   nav .menu_item_grandes {
     display: none;
   }
-  footer .redes {
-    display: none;
+  nav .logo {
+    width: 150px;
+    height: 100px;
   }
 }
 /* 2 columnas en pantallas mayores de 500px */
