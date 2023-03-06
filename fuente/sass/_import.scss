@@ -14,6 +14,12 @@
         width: 150px;
         height: 100px;
       }
+      .fotosmenuNomovil{
+        display: $display-none;
+      }
+    }
+    footer .redes{
+      display: $display-none;
     }
     
   }
@@ -24,8 +30,13 @@
     .cajabuscar{
       display: $display-none;
     }
-    nav .menu_item_grandes{
-      display: $display-none;
+    nav {
+      .menu_item_grandes{
+        display: $display-none;
+      }
+      .fotosmenuNomovil{
+        display: $display-none;
+      }
     }
   }
   
@@ -36,11 +47,16 @@
     .cajabuscar{
       display: $display-flex;
     }
-    nav .menu_item_grandes{
-      display: $display-flex;
-    }
-    nav .acceder{
-      display: $display-none;
+    nav {
+      .menu_item_grandes{
+        display: $display-flex;
+      }
+      .acceder{
+        display: $display-none;
+      }
+      .fotosmenuNomovil{
+        display: $display-flex;
+      }
     }
 
   }
@@ -52,7 +68,8 @@
       width: 100%;
     }
 
-    @import "./ventas.scss";
+    @import "./4k.scss";
+    
     .cajabuscar{
       display: $display-flex;
     }

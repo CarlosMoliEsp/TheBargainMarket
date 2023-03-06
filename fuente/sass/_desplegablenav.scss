@@ -13,17 +13,17 @@
         text-decoration: none;
         color: #fff;
         border: 1px solid #fff;
-        font-weight: 300;
+        // font-weight: 300;
     }
     #login-content {
         position: absolute;
         top: 26px;
-        right: 0;
+        right: 20;
         z-index: 999;    
         background: #050505;
         padding: 15px;
         border-radius: 10px 0 10px 10px;
-        width: 250px; 
+        width: 150px; 
         display: none;
     }
 }

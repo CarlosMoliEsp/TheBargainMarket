@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accesorios</title>
+  <title>Ofertas</title>
   <!-- Link a Sass -->
-  <link rel="StyleSheet" href="../../sass/style.css" type="text/css">
+  <link rel="StyleSheet" href="../../sass/style.scss" type="text/css">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular One">
-  
+
   <!-- Necesario para BOOTSTAP -->
   <link rel="stylesheet" href="../../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <!-- Scripts para DESPLEGABLE -->
@@ -31,25 +28,6 @@
   <nav id="menu">
     <a href="../../index.html" class="logo"><img src="../../fotos/LogoBargainMarket.png" class="fotologo" width="200px"
         height="100px" alt="logo"></a>
-
-    <!-- Prueba Desplegable -->
-    <nav class="acceder">
-      <ul>
-        <li>
-          <a id="login" href="#">Categorias</a>
-          <div id="login-content">
-            <form>
-              <h1><a href="./ofertas.html" class="menu_item">Ofertas</a></h1>
-              <h1><a href="./moviles.html" class="menu_item">Móviles</a></h1>
-              <h1><a href="./accesorios.html" class="menu_item">Accesorios</a></h1>
-              <h1><a href="./televisores.html" class="menu_item">Televisores</a></h1>
-              <h1><a href="./consolas.html" class="menu_item">Consolas</a></h1>
-              <h1><a href="./ordenadores.html" class="menu_item">Potátiles</a></h1>
-            </form>
-          </div>
-        </li>
-      </ul>
-    </nav>
 
     <h1><a href="./ofertas.html" class="menu_item_grandes">Ofertas</a></h1>
     <h1><a href="./moviles.html" class="menu_item_grandes">Móviles</a></h1>
@@ -71,10 +49,30 @@
       </form>
     </div>
     <!--Fotos de usuario y cesta-->
-    <div>
+    <div class="fotosmenuNomovil">
       <a href="#"><img src="../../fotos/usuario.png" class="fotosmenu" alt="usuario"></a>
       <a href="#"><img src="../../fotos/carro.png" class="fotosmenu1" alt="carrito"></a>
     </div>
+    <!-- Desplegable -->
+    <nav class="acceder">
+      <ul>
+        <li>
+          <a id="login" href="#">Categorias</a>
+          <div id="login-content">
+            <form>
+              <h1><a href="./ofertas.html" class="menu_item">Ofertas</a></h1>
+              <h1><a href="./moviles.html" class="menu_item">Móviles</a></h1>
+              <h1><a href="./accesorios.html" class="menu_item">Accesorios</a></h1>
+              <h1><a href="./televisores.html" class="menu_item">Televisores</a></h1>
+              <h1><a href="./consolas.html" class="menu_item">Consolas</a></h1>
+              <h1><a href="./ordenadores.html" class="menu_item">Potátiles</a></h1>
+              <a href="#"><img src="../../fotos/usuario.png" class="fotosmenu" alt="usuario"></a>
+              <a href="#"><img src="../../fotos/carro.png" class="fotosmenu1" alt="carrito"></a>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </nav>
   </nav>
 
   <!--Contenedor con Vnetas Recomendadas-->

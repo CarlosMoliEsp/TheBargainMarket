@@ -10,6 +10,11 @@ $border-radius: 15px;
 // $backgroundcolor-categoria: #b3b3b3;
 $backgroundcolor-categoria: #e1c49e;
 
+html{
+    max-width: 100vw;
+}
+
+
 body {
     // background-color: #e1c49e;
     background-color: #dbb88a;
@@ -22,13 +27,6 @@ a {
     text-decoration: none;
 }
 
-.anuncio {
-    img{
-        // display:none;
-        display: block;
-        margin:auto;
-    }
-}
 
 
 // Menu (Nav)
@@ -36,15 +34,15 @@ a {
 
 // Section 1
 .Categorias {
-    margin: 30px;
+    margin: 10px;
 
     .grid-categorias {
         display: $display-grid;
-        grid-template-columns: 25% 25% 25%;
+        grid-template-columns: 20% 20% 20%;
         justify-content: $align-center;
-        width: 90%;
+        width: 100%;
         height: 650px;
-        margin: 50px;
+        // margin: 50px;
     }
 
     .categoria {
@@ -123,3 +121,6 @@ a {
 
 // CAMBIO FORMATO
 @import "./import";
+
+// Venta Producto
+@import "./productoventa";

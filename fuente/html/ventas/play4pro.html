@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayStation 4 Pro - 1 Tb</title>
+  <!-- Link a Sass -->
+  <link rel="StyleSheet" href="../../sass/style.scss" type="text/css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular One">
+
+  <!-- Necesario para BOOTSTAP -->
+  <link rel="stylesheet" href="../../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Scripts para DESPLEGABLE -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+    $(function () {
+      $('#login').click(function () {
+        $(this).next('#login-content').slideToggle();
+        $(this).toggleClass('active');
+      });
+    });
+  </script>
+</head>
+<body>
+  <!--Menu de la Pagina-->
+  <nav id="menu">
+    <a href="../../index.html" class="logo"><img src="../../fotos/LogoBargainMarket.png" class="fotologo" width="200px"
+        height="100px" alt="logo"></a>
+
+    <h1><a href="../Categorias/ofertas.html" class="menu_item_grandes">Ofertas</a></h1>
+    <h1><a href="../Categorias/moviles.html" class="menu_item_grandes">Móviles</a></h1>
+    <h1><a href="../Categorias/accesorios.html" class="menu_item_grandes">Accesorios</a></h1>
+    <h1><a href="../Categorias/televisores.html" class="menu_item_grandes">Televisores</a></h1>
+    <h1><a href="../Categorias/consolas.html" class="menu_item_grandes">Consolas</a></h1>
+    <h1><a href="../Categorias/ordenadores.html" class="menu_item_grandes">Potátiles</a></h1>
+
+    <!--Buscador de la Pagina-->
+    <div class="cajabuscar">
+      <form method="get" id="buscarform">
+        <fieldset aria-label="fieldset">
+          <!-- <legend>El fieldset es para buscar</legend> -->
+          <input type="text" id="s" value="" placeholder="Buscar" aria-label="buscar" />
+          <a href="#" class="button"><img src="../../fotos/buscador.png" width="20px" height="20px" alt="buscar"></a>
+          <input class="button" type="submit" value="" aria-label="button" />
+          <i class="search"></i>
+        </fieldset>
+      </form>
+    </div>
+    <!--Fotos de usuario y cesta-->
+    <div class="fotosmenuNomovil">
+      <a href="#"><img src="../../fotos/usuario.png" class="fotosmenu" alt="usuario"></a>
+      <a href="#"><img src="../../fotos/carro.png" class="fotosmenu1" alt="carrito"></a>
+    </div>
+    <!-- Desplegable -->
+    <nav class="acceder">
+        <ul>
+          <li>
+            <a id="login" href="#">Categorias</a>
+            <div id="login-content">
+              <form>
+                <h1><a href="../Categorias/ofertas.html" class="menu_item">Ofertas</a></h1>
+                <h1><a href="../Categorias/moviles.html" class="menu_item">Móviles</a></h1>
+                <h1><a href="../Categorias/accesorios.html" class="menu_item">Accesorios</a></h1>
+                <h1><a href="../Categorias/televisores.html" class="menu_item">Televisores</a></h1>
+                <h1><a href="../Categorias/consolas.html" class="menu_item">Consolas</a></h1>
+                <h1><a href="../Categorias/ordenadores.html" class="menu_item">Potátiles</a></h1>
+                <a href="#"><img src="../../fotos/usuario.png" class="fotosmenu" alt="usuario"></a>
+                <a href="#"><img src="../../fotos/carro.png" class="fotosmenu1" alt="carrito"></a>
+              </form>
+            </div>
+          </li>
+        </ul>
+      </nav>
+  </nav>
+  <!-- Producto en Venta -->
+  <section class="productoventa">
+    <h1> PlayStation 4 - 500 GB - Negro </h1>
+    
+    <picture>
+        <source type="image/webp" media="(max-width: 499px)" srcset="../../fotos/venta18_300px.png">
+        <source type="image/webp" media="(max-width: 599px)" srcset="../../fotos/venta18_400px.png">
+        <source type="image/webp" media="(max-width: 799px)" srcset="../../fotos/venta18_600px.png">
+        <source type="image/webp" media="(max-width: 1200px)" srcset="../../fotos/venta18_600px.png">
+        <source type="image/webp" media="(min-width: 800px) and (max-width: 1199px)" srcset="../../fotos/venta18_700px.png">
+        <source type="image/webp" media="(min-width: 1200px) and (max-width: 1799px)" srcset="../../fotos/venta18_1000px.png">
+        <source type="image/webp" media="(max-width: 1800px)" srcset="../../fotos/venta18_1600px.png">
+
+        <img src="../../fotos/venta18_1600px.png">
+    </picture>
+    <h1 class="precioproducto">329'99€</h1>
+</section>
+
+  <!-- Pie de pagina-->
+  <footer id="footer">
+    <div class="piepagina">
+      <section>
+        <h3 class="infotitulo"> Información </h3>
+        <p class="info">
+          -¿Quienes somos?<br>
+          -Número contacto; 618652432<br>
+          -Encuentra tu tienda<br>
+          -Nuestras redes sociales<br>
+        </p>
+      </section>
+
+      <section class="redes">
+        <article class="red 1">
+          <i class="bi bi-instagram"></i>
+        </article>
+
+        <article class="red 2">
+          <i class="bi bi-facebook"></i>
+        </article>
+
+        <article class="red 3">
+          <i class="bi bi-twitter"></i>
+        </article>
+      </section>
+    </div>
+    <h4 class="año">@ 2022 TheBargainMarket</h4>
+  </footer> 
+
+</body>
+</html>
