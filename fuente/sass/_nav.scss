@@ -18,6 +18,16 @@ nav {
             cursor: pointer;
         }
     }
+    
+    .menu_item_grandes {
+        text-align: $align-center;
+        color: $primary-color;
+
+        &:hover {
+            color: #7a7a7a;
+            cursor: pointer;
+        }
+    }
 
     .fotologo {
         width: 200px;
@@ -37,7 +47,8 @@ nav {
         }
     }
 }
-
+//Desplegable Nav 
+@import "./desplegablenav";
 // Buscador
 body, div, fieldset{
     margin: 0;

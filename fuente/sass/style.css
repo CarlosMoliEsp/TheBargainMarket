@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-.anuncio1 img {
+.anuncio img {
   display: block;
   margin: auto;
 }
@@ -32,6 +32,14 @@ nav .menu_item:hover {
   color: #7a7a7a;
   cursor: pointer;
 }
+nav .menu_item_grandes {
+  text-align: center;
+  color: white;
+}
+nav .menu_item_grandes:hover {
+  color: #7a7a7a;
+  cursor: pointer;
+}
 nav .fotologo {
   width: 200px;
   height: 100px;
@@ -45,6 +53,34 @@ nav img .fotosmenu {
 }
 nav img .fotosmenu1 {
   width: 70px;
+}
+
+.acceder ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+}
+.acceder #login {
+  display: inline-block;
+  font-size: 16px;
+  padding: 2px 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 300;
+}
+.acceder #login-content {
+  position: absolute;
+  top: 26px;
+  right: 0;
+  z-index: 999;
+  background: #050505;
+  padding: 15px;
+  border-radius: 10px 0 10px 10px;
+  width: 250px;
+  display: none;
 }
 
 body, div, fieldset {
@@ -227,7 +263,7 @@ footer .año {
 
 /* Cambiar el formato segun la pantalla */
 /* 1 columna en pantallas menores de 500px */
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .Categorias .grid-categorias {
     grid-template-columns: repeat(1, 1fr);
     height: 2000px;
@@ -238,7 +274,7 @@ footer .año {
   .cajabuscar {
     display: none;
   }
-  nav .menu_item {
+  nav .menu_item_grandes {
     display: none;
   }
   footer .redes {
@@ -246,7 +282,7 @@ footer .año {
   }
 }
 /* 2 columnas en pantallas mayores de 500px */
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   .Categorias .grid-categorias {
     grid-template-columns: repeat(2, 1fr);
     height: 1000px;
@@ -257,12 +293,12 @@ footer .año {
   .cajabuscar {
     display: none;
   }
-  nav .menu_item {
+  nav .menu_item_grandes {
     display: none;
   }
 }
 /* 3 columnas en pantallas mayores de 1000px */
-@media (min-width: 1100px) {
+@media (min-width: 1300px) {
   .Categorias .grid-categorias {
     grid-template-columns: repeat(3, 1fr);
     height: 650px;
@@ -273,8 +309,11 @@ footer .año {
   .cajabuscar {
     display: flex;
   }
-  nav .menu_item {
+  nav .menu_item_grandes {
     display: flex;
+  }
+  nav .acceder {
+    display: none;
   }
 }
 /* 3 columnas en pantallas mayores de 1000px */
@@ -294,7 +333,13 @@ footer .año {
   .cajabuscar {
     display: flex;
   }
-  nav .menu_item {
+  nav .menu_item_grandes {
     display: flex;
+  }
+  nav .acceder {
+    display: none;
+  }
+  nav .acceder #desplegable {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
